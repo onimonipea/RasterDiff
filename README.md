@@ -9,12 +9,21 @@ The program simply creates a list of the individual pixels of each raster, pairi
 I’m sure that this is not the fastest way to accomplish this task, as it proves to be processor heavy. A timing module is included for comparison between different levels of contiguity and raster image size.
 
 Modules imported (necessary in virtual environment):
+
 numpy
+
 gdal
+
 pandas
+
 os
+
 itertools
+
 time
+
 scipy
+
 stats
+
 sys
