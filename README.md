@@ -1,6 +1,7 @@
 # RasterDiff
 Python program designed to detect percentage of statistically different groups between geotif files with the same extent and spatial resolution.
 
+This tool is designed to be a more complete version of the 'Detect Change' raster tool provided by ArcGIS. The ESRI tool will compare spatially similar pixels and return a raster with visualized differences between pixel values. 'Detect Change' does not tell you any summary statistics of the changes detected or the statistical significance of these changes. Though less refined, this tool will return the percentage of contigous groups that are statistically different between two raster image datasets.
 
 It is necessary that each tif file has the same extent and spatial resolution per pixel (this may require masking by a shared .shp file within ArcGIS or QGIS, with resampling of pixel sizes).
 
